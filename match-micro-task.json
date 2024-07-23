@@ -1,9 +1,9 @@
 {
-  "taskDefinitionArn": "arn:aws:ecs:us-east-1:730335425827:task-definition/match-micro-task:1",
+  "taskDefinitionArn": "arn:aws:ecs:us-east-1:058264561858:task-definition/match-micro-task:1",
   "containerDefinitions": [
     {
       "name": "match-micro",
-      "image": "730335425827.dkr.ecr.us-east-1.amazonaws.com/match-micro:latest",
+      "image": "058264561858.dkr.ecr.us-east-1.amazonaws.com/match-micro:latest",
       "cpu": 0,
       "portMappings": [
         {
@@ -34,8 +34,8 @@
     }
   ],
   "family": "match-micro-task",
-  "taskRoleArn": "arn:aws:iam::730335425827:role/ecsTaskExecutionRole",
-  "executionRoleArn": "arn:aws:iam::730335425827:role/ecsTaskExecutionRole",
+  "taskRoleArn": "arn:aws:iam::058264561858:role/ecsTaskExecutionRole",
+  "executionRoleArn": "arn:aws:iam::058264561858:role/ecsTaskExecutionRole",
   "networkMode": "awsvpc",
   "revision": 1,
   "volumes": [],
@@ -83,7 +83,7 @@
     "cpuArchitecture": "X86_64",
     "operatingSystemFamily": "LINUX"
   },
-  "registeredAt": "2024-07-22T21:54:11.895Z",
-  "registeredBy": "arn:aws:iam::730335425827:root",
+  "registeredAt": "2024-07-23T01:58:34.130Z",
+  "registeredBy": "arn:aws:iam::058264561858:root",
   "tags": []
 }

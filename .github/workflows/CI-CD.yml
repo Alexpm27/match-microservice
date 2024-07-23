@@ -56,5 +56,5 @@ jobs:
         with:
           task-definition: ${{ steps.task-def.outputs.task-definition }}
           service: match-micro-service
-          cluster: PSortir
+          cluster: PrSortir
           wait-for-service-stability: true
