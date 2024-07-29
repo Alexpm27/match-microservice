@@ -1,9 +1,9 @@
 {
-  "taskDefinitionArn": "arn:aws:ecs:us-east-1:058264561858:task-definition/match-micro-task:1",
+  "taskDefinitionArn": "arn:aws:ecs:us-east-1:730335425827:task-definition/match-micro-task:4",
   "containerDefinitions": [
     {
       "name": "match-micro",
-      "image": "058264561858.dkr.ecr.us-east-1.amazonaws.com/match-micro:latest",
+      "image": "730335425827.dkr.ecr.us-east-1.amazonaws.com/match-micro:f6b85dcbf6d212e5987d30e1f039d526ae9328f8",
       "cpu": 0,
       "portMappings": [
         {
@@ -16,10 +16,8 @@
       ],
       "essential": true,
       "environment": [],
-      "environmentFiles": [],
       "mountPoints": [],
       "volumesFrom": [],
-      "ulimits": [],
       "logConfiguration": {
         "logDriver": "awslogs",
         "options": {
@@ -27,17 +25,16 @@
           "awslogs-create-group": "true",
           "awslogs-region": "us-east-1",
           "awslogs-stream-prefix": "ecs"
-        },
-        "secretOptions": []
+        }
       },
       "systemControls": []
     }
   ],
   "family": "match-micro-task",
-  "taskRoleArn": "arn:aws:iam::058264561858:role/ecsTaskExecutionRole",
-  "executionRoleArn": "arn:aws:iam::058264561858:role/ecsTaskExecutionRole",
+  "taskRoleArn": "arn:aws:iam::730335425827:role/ecsTaskExecutionRole",
+  "executionRoleArn": "arn:aws:iam::730335425827:role/ecsTaskExecutionRole",
   "networkMode": "awsvpc",
-  "revision": 1,
+  "revision": 4,
   "volumes": [],
   "status": "ACTIVE",
   "requiresAttributes": [
@@ -83,7 +80,7 @@
     "cpuArchitecture": "X86_64",
     "operatingSystemFamily": "LINUX"
   },
-  "registeredAt": "2024-07-23T01:58:34.130Z",
-  "registeredBy": "arn:aws:iam::058264561858:root",
+  "registeredAt": "2024-07-23T00:08:41.439Z",
+  "registeredBy": "arn:aws:iam::730335425827:user/admin",
   "tags": []
 }
